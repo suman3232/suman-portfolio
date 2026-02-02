@@ -2,6 +2,9 @@
 
 A personal portfolio site built with React, TypeScript, and Tailwind CSS.
 
+🔗 Live Demo: sumanpatra-portfolio.vercel.app
+
+
 ## Getting started
 
 ```sh
