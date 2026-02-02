@@ -4,7 +4,7 @@ import TypingAnimation from './TypingAnimation';
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-28 md:pt-32">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-card" />
       <div className="absolute top-1/4 -left-32 w-96 h-96 rounded-full bg-primary/10 blur-3xl animate-float" />
@@ -55,17 +55,17 @@ const Hero = () => {
               and intuitive design.
             </p>
 
-            <div className="animate-fade-in-up opacity-0 stagger-4 flex flex-wrap items-center justify-center lg:justify-start gap-4 mb-10">
+            <div className="animate-fade-in-up opacity-0 stagger-4 grid grid-cols-2 gap-3 w-full max-w-md mx-auto lg:mx-0 lg:flex lg:flex-wrap lg:items-center lg:justify-start lg:gap-4 mb-10">
               <a
                 href="#projects"
-                className="px-8 py-4 rounded-xl bg-gradient-primary text-primary-foreground font-medium transition-all hover:opacity-90 hover:scale-105 glow-primary"
+                className="w-full text-center px-4 py-3 sm:px-8 sm:py-4 rounded-xl bg-gradient-primary text-primary-foreground font-medium transition-all hover:opacity-90 hover:scale-105 glow-primary"
               >
                 View My Work
               </a>
               <a
                 href="/SumanPatra_Resume.pdf"
                 download
-                className="px-8 py-4 rounded-xl border border-border hover:border-primary/50 font-medium transition-all hover:scale-105 flex items-center gap-2"
+                className="w-full justify-center px-4 py-3 sm:px-8 sm:py-4 rounded-xl border border-border hover:border-primary/50 font-medium transition-all hover:scale-105 flex items-center gap-2"
               >
                 <Download size={18} />
                 Download CV
