@@ -83,7 +83,7 @@ const Contact = () => {
                   <Github size={24} />
                 </a>
                 <a
-                  href="https://linkedin.com/in/suman-patra"
+                  href="https://www.linkedin.com/in/sumanpatra32"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-4 glass rounded-xl hover:border-primary/50 transition-all hover:scale-110"
